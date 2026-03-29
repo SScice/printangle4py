@@ -87,3 +87,6 @@ sudo systemctl enable printangle4py.service
 # 4. 查看当前运行状态和日志
 sudo systemctl status printangle4py.service
   ```
+
+## 自定义命令
+对于需要自定义ESC打印机命令的用户，我这里也提供了ESC打印机命令的相关文档，有需要的用户可以通过下载阅读commande ESCPOS.pdf自行进行编写。
