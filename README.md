@@ -12,6 +12,19 @@
 
 ---
 
+## 运行前需要做的：
+
+1.下载源代码：直接download zip或者clone该项目：
+```bash
+   git clone [https://github.com/YOUR_USERNAME/printangle4py.git](https://github.com/YOUR_USERNAME/printangle4py.git)
+   cd printangle4py
+```
+2.修改main.py中的mac地址：
+```python
+   address = "你的打印机蓝牙MAC地址"
+KEEP_ALIVE_INTERVAL = 180  # 3分钟（180秒）发一次保活指令，避开4分钟的关机点
+```
+
 ## ⚙️ 部署为 Systemd 服务 (Systemctl Service)
 
 为了让程序在开机后自动后台静默运行，我们需要将其配置为一个用户级的 Systemd 服务。
