@@ -23,7 +23,9 @@
    ```bash
    pip install bleak
    ```
-2.明确你的 main.py 存放路径（假设存放于 /home/你的用户名/printangle4py/main.py）。、
+
+2.明确你的 main.py 存放路径（假设存放于 /home/你的用户名/printangle4py/main.py）。
+
 3.确保你的 main.py 具有可执行权限：
   ```bash
   chmod +x /home/你的用户名/printangle4py/main.py
